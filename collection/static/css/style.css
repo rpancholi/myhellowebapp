@@ -1,0 +1,14 @@
+ body {
+	 background-color: cornflowerblue;
+	 color: white;
+	 font-family: arial;
+ }
+ 
+ a:link {
+	 color: white;
+ }
+
+ a:visited {
+	 color: white;
+	 text-decoration: none;
+ }
