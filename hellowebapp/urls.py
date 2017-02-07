@@ -24,5 +24,6 @@ urlpatterns = [
 	url(r'^about/$', TemplateView.as_view(template_name='about.html'), name='about'),
 	url(r'^contact/$', TemplateView.as_view(template_name='contact.html'), name='contact'),
 	url(r'^places/(?P<slug>[-\w]+)/$', views.place_detail, name='place_detail'),
+	url(r'^places/(?P<slug>[-\w]+)/edit/$', views.edit_place, name='edit_place'),
     url(r'^admin/', admin.site.urls),
 ]
